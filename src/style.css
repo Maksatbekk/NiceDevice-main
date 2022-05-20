@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #00000020;
+    box-shadow: 0 0 15px 2px #88888860;
+    margin-top: 30px;
+    padding: 0 20px 5px;
+    border-radius: 8px;
+    min-height: 100vh;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+
+    }
+}

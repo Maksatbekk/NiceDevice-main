@@ -1,0 +1,151 @@
+
+.header {
+    padding: 40px 0;
+}
+
+.headerNav {
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #00000030;
+}
+
+.headerLogo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogoImg {
+    width: 70px;
+    height: 70px;
+}
+
+.headerTopRight {
+    display: flex;
+    column-gap: 500px;
+    align-items: center;
+}
+
+.headerRegister {
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    color: #00bbd3;
+}
+
+
+.headerRegisterImg {
+    width: 40px;
+    height: 40px;
+}
+
+.headerLink {
+    color: #00bbd3;
+    font-size: 16px;
+}
+.topList {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.cartCount {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.cartImg {
+    width: 40px;
+    height: 40px;
+}
+
+
+.categoriesLink {
+    color: black;
+}
+
+.categoriesLink:hover {
+    border-top: 7px solid #5360FE;
+    padding: 20px 0 0;
+    border-radius: 20px 20px;
+}
+
+.categoriesLink.active {
+    color: #00bbd3;
+}
+
+@media (max-width: 1024px) {
+    .headerNav {
+        column-gap: 70px;
+        width: 96%;
+    }
+    .headerTopRight {
+        column-gap: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerNav {
+        column-gap: 50px;
+    }
+
+    .headerTopRight {
+        column-gap: 150px;
+    }
+    .topList {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding: 25px 0;
+    }
+    .headerNav {
+        column-gap: 30px;
+    }
+    .topList {
+        column-gap: 25px;
+    }
+
+    .headerTopRight {
+        column-gap: 90px;
+    }
+    .headerLogo {
+        font-size: 14px;
+    }
+    .headerLogoImg {
+        width: 60px;
+        height: 60px;
+    }
+    .headerRegister {
+        column-gap: 20px;
+    }
+
+    .cartImg {
+        width: 30px;
+        height: 30px;
+    }
+    .cartCount {
+        left: 11px;
+    }
+
+    .headerRegisterImg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .categoriesLink {
+        font-size: 15px;
+    }
+
+    .categoriesListItem {
+        width: 100%;
+    }
+}

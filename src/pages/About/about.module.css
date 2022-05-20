@@ -1,0 +1,59 @@
+.about {
+
+}
+
+.aboutTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #22215B;
+    margin-bottom: 7px;
+}
+
+.aboutDescr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #7D8797;
+}
+
+.row {
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: -100px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    color: #292930;
+    margin-bottom: 15px;
+}
+
+.swiper {
+    width: 27%;
+    height: 400px;
+    text-align: center;
+}
+
+.swiperRow {
+    width: 100%;
+}
+
+.swiperImg {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .aboutTop {
+        padding: 0 30px;
+    }
+    .swiper {
+        margin-top: 40px;
+    }
+}

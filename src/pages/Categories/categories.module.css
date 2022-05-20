@@ -1,0 +1,167 @@
+.sectionTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories {
+    width: 200px;
+    height: 40px;
+    background-color: lightskyblue;
+    padding: 10px 0 10px 10px;
+}
+
+.topTitle {
+    font-size: 20px;
+}
+
+.topList {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.topRight {
+    display: flex;
+    column-gap: 10px;
+    font-size: 19px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    padding: 10px 0 10px 10px;
+}
+
+
+.categoriesList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+.categoriesLink {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.categoriesLink.active {
+    background-color: #00bbd3;
+}
+
+.categoriesItem {
+    width: 200px;
+    height: 30px;
+    background-color: #00000010;
+    padding: 7px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.categoriesItem:hover {
+    background-color: #00bbd330;
+    color: #00bbd3;
+}
+
+.sectionBottom {
+    padding: 10px 0;
+    display: flex;
+    column-gap: 60px;
+}
+
+
+.burger {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00bbd3;
+    position: relative;
+    display: none;
+}
+
+.burgerLine {
+    width: 100%;
+    border: 1px solid #00bbd3;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.burgerLine::before {
+    content: '';
+    width: 100%;
+    border: 1px solid #00bbd3;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.burgerLine::after {
+    content: '';
+    width: 100%;
+    border: 1px solid #00bbd3;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+
+.slider {
+    margin-top: -50px;
+    width: 70%;
+    max-height: 500px;
+}
+
+
+@media (max-width: 1024px) {
+  .slider {
+      width: 68%;
+  }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: 60%;
+    }
+
+    .topRight {
+        width: 200px;
+    }
+
+    .topLeft {
+        column-gap: 70px;
+    }
+
+    .topList {
+        column-gap: 35px;
+    }
+
+    .topRightTitle {
+        margin-right: 70px;
+        font-size: 18px;
+    }
+
+    .categoriesItem {
+        width: 170px;
+    }
+
+    .categories {
+        width: 170px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider {
+        width: 40%;
+    }
+    .categoriesList {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}

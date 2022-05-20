@@ -1,0 +1,55 @@
+.section {
+
+}
+
+.sectionTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin: 40px 0;
+}
+
+
+
+.search {
+    border: 1px solid #00bbd3;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 45px;
+    color: black;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.search::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+
+@media (max-width: 1024px) {
+    .sectionTop {
+        width: 96%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 20px;
+    }
+
+}

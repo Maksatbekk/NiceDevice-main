@@ -1,0 +1,11 @@
+
+
+.MuiPaper-root {
+    top: 150px!important;
+}
+
+@media (max-width: 768px) {
+    .Ralist-main {
+        width: 100% !important;
+    }
+}

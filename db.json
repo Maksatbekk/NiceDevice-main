@@ -1,0 +1,479 @@
+{
+  "users": [
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$6hD84uYgiEvOug1foukQou.hRv2xwrZsVbMvaXgv9ocs9TWCALb4e",
+      "login": "Admin",
+      "phone": "+996550154154",
+      "order": [
+        {
+          "name": "admin",
+          "tel": "12212",
+          "city": "admin",
+          "street": "admin",
+          "info": "admin",
+          "pay": "Наличные",
+          "money": "55000",
+          "checkbox": true,
+          "products": [
+            {
+              "id": 1,
+              "title": "Смартфон Apple iPhone 11 128GB Small Box",
+              "composition": "Элегантный дизайн Прочный корпус из цельнолистового стекла и алюминия Инновационная система камер Безрамочный дисплей Liquid Retina HD Надежная защита от воды Рекордное время автономной работы Уникальный процессор A13 Bionic Новый уровень защиты данных",
+              "image": "Assets/Apple/product-0.jpg",
+              "category": "Apple",
+              "price": 53900,
+              "model": "IPhone 11",
+              "count": 1
+            }
+          ],
+          "price": 53900,
+          "nds": 2695,
+          "change": 1100,
+          "date": "17.05.2022",
+          "id": "c8e005d4-6b25-4823-b6a8-f16bd8cf6e6d"
+        },
+        {
+          "name": "Maksat",
+          "tel": "+996550154154",
+          "city": "Osh",
+          "street": "Masalieva",
+          "info": "1231",
+          "pay": "Наличные",
+          "money": "500000",
+          "checkbox": true,
+          "products": [
+            {
+              "id": 3,
+              "title": "СМАРТФОН APPLE IPHONE 12 PRO 256GB",
+              "composition": "Смартфон Apple iPhone 12 Pro Процессор A14 Bionic далеко впереди других процессоров iPhone. Система камер Pro гораздо лучше работает при слабом освещении — а на iPhone 12 Pro Max ещё лучше. Ceramic Shield в четыре раза снижает риск повреждений дисплея при падении. Давайте посмотрим, как тут всё устроено.",
+              "image": "Assets/Apple/product-2.png",
+              "category": "Apple",
+              "price": 101450,
+              "model": "IPhone 12 PRO",
+              "count": 26
+            },
+            {
+              "id": 2,
+              "title": "СМАРТФОН APPLE IPHONE 11 256GB",
+              "composition": "Элегантный дизайн Прочный корпус из цельнолистового стекла и алюминия Инновационная система камер Безрамочный дисплей Liquid Retina HD Надежная защита от воды Рекордное время автономной работы Уникальный процессор A13 Bionic Новый уровень защиты данных",
+              "image": "Assets/Apple/product-1.jpg",
+              "category": "Apple",
+              "price": 62900,
+              "model": "IPhone 11",
+              "count": 30
+            }
+          ],
+          "price": 164350,
+          "nds": 8218,
+          "change": 335650,
+          "date": "18.05.2022",
+          "id": "166420d6-e77f-4e75-bac6-5dc9316fef2d"
+        }
+      ],
+      "birthday": "",
+      "image": "",
+      "id": 3,
+      "date": "2011-02-12"
+    },
+    {
+      "email": "maks@mail.ru",
+      "password": "$2a$10$a6XrtQwDc2Y6q/2pHteM0OEN9vuoxto37tTTYxs4V9JyGqRRFD87.",
+      "name": "Maksat",
+      "phone": "+996550154154",
+      "order": [
+        {
+          "name": "Maksat",
+          "tel": "+996550154154",
+          "city": "Bishkek",
+          "street": "Tynalieva",
+          "info": "dsasad",
+          "pay": "Наличные",
+          "money": "165000",
+          "checkbox": true,
+          "products": [
+            {
+              "id": 2,
+              "title": "СМАРТФОН APPLE IPHONE 11 256GB",
+              "composition": "Элегантный дизайн Прочный корпус из цельнолистового стекла и алюминия Инновационная система камер Безрамочный дисплей Liquid Retina HD Надежная защита от воды Рекордное время автономной работы Уникальный процессор A13 Bionic Новый уровень защиты данных",
+              "image": "Assets/Apple/product-1.jpg",
+              "category": "Apple",
+              "price": 62900,
+              "model": "IPhone 11",
+              "count": 1
+            },
+            {
+              "id": 3,
+              "title": "СМАРТФОН APPLE IPHONE 12 PRO 256GB",
+              "composition": "Смартфон Apple iPhone 12 Pro Процессор A14 Bionic далеко впереди других процессоров iPhone. Система камер Pro гораздо лучше работает при слабом освещении — а на iPhone 12 Pro Max ещё лучше. Ceramic Shield в четыре раза снижает риск повреждений дисплея при падении. Давайте посмотрим, как тут всё устроено.",
+              "image": "Assets/Apple/product-2.png",
+              "category": "Apple",
+              "price": 101450,
+              "model": "IPhone 12 PRO",
+              "count": 1
+            }
+          ],
+          "price": 164350,
+          "nds": 8218,
+          "change": 650,
+          "date": "20.05.2022"
+        }
+      ],
+      "birthday": "",
+      "image": "",
+      "id": 4
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "title": "Смартфон Apple iPhone 11 128GB Small Box",
+      "composition": "Элегантный дизайн Прочный корпус из цельнолистового стекла и алюминия Инновационная система камер Безрамочный дисплей Liquid Retina HD Надежная защита от воды Рекордное время автономной работы Уникальный процессор A13 Bionic Новый уровень защиты данных",
+      "image": "Assets/Apple/product-0.jpg",
+      "category": "Apple",
+      "price": 53900,
+      "model": "IPhone 11"
+    },
+    {
+      "id": 2,
+      "title": "СМАРТФОН APPLE IPHONE 11 256GB",
+      "composition": "Элегантный дизайн Прочный корпус из цельнолистового стекла и алюминия Инновационная система камер Безрамочный дисплей Liquid Retina HD Надежная защита от воды Рекордное время автономной работы Уникальный процессор A13 Bionic Новый уровень защиты данных",
+      "image": "Assets/Apple/product-1.jpg",
+      "category": "Apple",
+      "price": 62900,
+      "model": "IPhone 11"
+    },
+    {
+      "id": 3,
+      "title": "СМАРТФОН APPLE IPHONE 12 PRO 256GB",
+      "composition": "Смартфон Apple iPhone 12 Pro Процессор A14 Bionic далеко впереди других процессоров iPhone. Система камер Pro гораздо лучше работает при слабом освещении — а на iPhone 12 Pro Max ещё лучше. Ceramic Shield в четыре раза снижает риск повреждений дисплея при падении. Давайте посмотрим, как тут всё устроено.",
+      "image": "Assets/Apple/product-2.png",
+      "category": "Apple",
+      "price": 101450,
+      "model": "IPhone 12 PRO"
+    },
+    {
+      "id": 4,
+      "title": "СМАРТФОН APPLE IPHONE 12 PRO MAX 512GB",
+      "composition": "Смартфон Apple iPhone 12 Pro Процессор A14 Bionic далеко впереди других процессоров iPhone. Система камер Pro гораздо лучше работает при слабом освещении — а на iPhone 12 Pro Max ещё лучше. Ceramic Shield в четыре раза снижает риск повреждений дисплея при падении. Давайте посмотрим, как тут всё устроено.",
+      "image": "Assets/Apple/product-3.png",
+      "category": "Apple",
+      "price": 129900,
+      "model": "IPhone 12 PRO MAX"
+    },
+    {
+      "id": 5,
+      "title": "СМАРТФОН APPLE IPHONE SE 64GB (2020)",
+      "composition": "Любим и ожидаем Корпус iPhone SE изготовлен из прочного стекла и алюминия, используемого в аэрокосмической отрасли. Вся передняя панель выполнена в чёрном цвете; по центру задней панели из стекла размещён логотип Apple. Для того, чтобы добиться нужного оттенка, глубины цвета и прозрачности покрытия задней панели, применялось семислойное окрашивание материала. Алюминиевая рамка устройства при этом идеально совпадает по цвету с корпусом.",
+      "image": "Assets/Apple/product-4.jpg",
+      "category": "Apple",
+      "price": 34900,
+      "model": "IPhone SE"
+    },
+    {
+      "id": 6,
+      "title": "СМАРТФОН APPLE IPHONE 11 PRO MAX 512GB",
+      "composition": "Это прорыв. Система камер Pro. Великолепная тройка.Революционная система трёх камер — гораздо больше возможностей и неизменная простота в использовании. Беспрецедентное увеличение ресурса аккумулятора. И потрясающий процессор с расширенной поддержкой технологий машинного обучения, который открывает для iPhone большие новые перспективы. Представляем iPhone 11 Pro. Он достоин своего имени.",
+      "image": "Assets/Apple/product-5.jpg",
+      "category": "Apple",
+      "price": 97900,
+      "model": "IPhone 11 PRO MAX"
+    },
+    {
+      "id": 7,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ APPLE AIRPODS 2 WITH CHARGING CASE",
+      "composition": "Apple AirPods 2 – это больше суток воспроизведения музыки в высоком качестве. Наушники совместимы со всеми вашими устройствами и за секунды устанавливают соединение и начинают воспроизведение. Теперь футляр гарнитуры поддерживает функцию беспроводной зарядки, а активировать Siri можно голосом.",
+      "image": "Assets/Apple/product-6.jpg",
+      "category": "Apple",
+      "sub": "Accessories",
+      "model": "2",
+      "price": 10200
+    },
+    {
+      "id": 8,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ APPLE AIRPODS 3 WITH WIRELESS CHARGING CASE",
+      "composition": "Когда вы слушаете музыку или смотрите фильмы и сериалы, технология пространственного аудио с функцией динамического отслеживания движений головы создаёт по‑настоящему живую трёхмерную картину звука. Как будто вы находитесь в настоящем концертном зале или кинотеатре.",
+      "image": "Assets/Apple/product-7.jpg",
+      "category": "Apple",
+      "sub": "Accessories",
+      "model": "3",
+      "price": 14300
+    },
+    {
+      "id": 9,
+      "title": "СМАРТ-ЧАСЫ APPLE WATCH SERIES SE GPS 40MM",
+      "composition": "Большой дисплей Retina, на котором поместится всё, что нужно. Продвинутые датчики для отслеживания любой физической активности. Полезные функции, которые помогают следить за показателями здоровья и заботятся о вашей безопасности.",
+      "image": "Assets/Apple/product-8.jpg",
+      "category": "Apple",
+      "sub": "Accessories",
+      "model": "SE",
+      "price": 26400
+    },
+    {
+      "id": 10,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ APPLE AIRPODS MAX WITH SMART CASE",
+      "composition": "AirPods Max — это совершенно новый взгляд на полноразмерные наушники. Все элементы AirPods Max, от амбушюров до оголовья, спроектированы таким образом, чтобы наушники оптимально прилегали к голове любой формы. Благодаря этому достигается невероятное качество и богатство звука.",
+      "image": "Assets/Apple/product-9.jpg",
+      "category": "Apple",
+      "sub": "Accessories",
+      "model": "MAX",
+      "price": 41000
+    },
+    {
+      "id": 11,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ BEATS SOLO 3 WIRELESS",
+      "composition": "Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса 1 будет сопровождать вас повсюду — куда бы вы ни отправились. Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их целый день.",
+      "image": "Assets/Apple/product-10.jpg",
+      "category": "Apple",
+      "sub": "Accessories",
+      "model": "3",
+      "price": 15000
+    },
+    {
+      "id": 12,
+      "title": "НОУТБУК APPLE MACBOOK PRO 14 2021 APPLE M1 PRO CHIP WITH 10‑CORE CPU AND 16‑CORE GPU (16+1TB SSD)",
+      "composition": "Супербыстрые чипы M1 Pro и M1 Max дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR и ещё больше портов для профессиональной работы. Это тот самый ноутбук, который вы так ждали.",
+      "image": "Assets/Apple/product-11.jpg",
+      "category": "Apple",
+      "model": "PRO",
+      "price": 235000
+    },
+    {
+      "id": 13,
+      "title": "НОУТБУК APPLE MACBOOK AIR 13.3 2020 APPLE M1 (8+512GB SSD)",
+      "composition": "С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.",
+      "image": "Assets/Apple/product-12.jpg",
+      "category": "Apple",
+      "model": "AIR",
+      "price": 120000
+    },
+    {
+      "id": 14,
+      "title": "НОУТБУК APPLE MACBOOK PRO 16 2021 APPLE M1 MAX CHIP WITH 10‑CORE CPU AND 32‑CORE GPU (32+1TB SSD)",
+      "composition": "Супербыстрые чипы M1 Pro и M1 Max дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR и ещё больше портов для профессиональной работы. Это тот самый ноутбук, который вы так ждали.",
+      "image": "Assets/Apple/product-13.jpg",
+      "category": "Apple",
+      "model": "PRO",
+      "price": 355000
+    },
+    {
+      "id": 15,
+      "title": "НОУТБУК APPLE MACBOOK PRO 16 2021 APPLE M1 PRO CHIP WITH 10‑CORE CPU AND 16‑CORE GPU (16+1TB SSD)",
+      "composition": "Супербыстрые чипы M1 Pro и M1 Max дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR и ещё больше портов для профессиональной работы. Это тот самый ноутбук, который вы так ждали.",
+      "image": "Assets/Apple/product-14.jpg",
+      "category": "Apple",
+      "model": "PRO",
+      "price": 265000
+    },
+    {
+      "id": 16,
+      "title": "МОНОБЛОК APPLE IMAC 21.5\" RETINA 4K 2019 I3-8100 8TH GEN/AMD RADEON PRO 555X 2GB (8+1000GB HDD)",
+      "composition": "Настоящее украшение iMac — великолепный дисплей Retina c разрешением 4K или 5K. Более миллиарда цветов и яркость 500 кд/﻿м² — изображение буквально оживает, а текст отображается невероятно чётко. Ваши любимые сериалы и фильмы ещё никогда не выглядели настолько реалистично. Графика в играх и других приложениях поражает уровнем детализации. Это лучший дисплей Retina в истории Mac.",
+      "image": "Assets/Apple/product-15.jpg",
+      "category": "Apple",
+      "model": "PRO",
+      "price": 105000
+    },
+    {
+      "id": 17,
+      "title": "СМАРТФОН SAMSUNG GALAXY A42 (6+128) EU",
+      "composition": "Работайте быстрее с Galaxy A42 5G\nВ мобильной сети передачи данных нового поколения мощь высоких скоростей 5G меняет способ восприятия и обмена контентом - от сверхплавных игр и потоковой передачи до сверхбыстрого обмена и загрузки. Обновитесь до Galaxy A42 5G и увеличьте скорость своего смартфона.",
+      "image": "Assets/Samsung/product-0.jpg",
+      "category": "Samsung",
+      "model": "A42",
+      "price": 25500
+    },
+    {
+      "id": 18,
+      "title": "СМАРТФОН SAMSUNG GALAXY NOTE 20 (8+256) EU",
+      "composition": "С усовершенствованным S Pen, производительностью, как у компьютера, и камерой профессионального уровня с 8K видео. Металлический корпус, подчеркнутый изысканными деталями и переливающимися цветами, соединенный с прочным стеклом Corning® Gorilla® Glass Victus™ в смартфоне. Каждый Galaxy Note20 и Note20 Ultra дополняется пером S Pen такого же цвета.",
+      "image": "Assets/Samsung/product-1.jpg",
+      "category": "Samsung",
+      "model": "Note 20",
+      "price": 59650
+    },
+    {
+      "id": 19,
+      "title": "СМАРТФОН SAMSUNG GALAXY A52 (8+256) EU",
+      "composition": "Новый Galaxy A52. Смартфон что надо.\nБезграничный экран 90 Гц | AI квадрокамера 64 Мп | Защита от воды (IP67)",
+      "image": "Assets/Samsung/product-2.jpg",
+      "category": "Samsung",
+      "model": "A52",
+      "price": 30500
+    },
+    {
+      "id": 20,
+      "title": "СМАРТФОН SAMSUNG GALAXY A72 (8+256) EU",
+      "composition": "Новый Galaxy A72. Смартфон что надо.\nБезграничный экран 90 Гц | AI квадрокамера 64 Мп | Защита от воды (IP67)\n",
+      "image": "Assets/Samsung/product-3.jpg",
+      "category": "Samsung",
+      "model": "A72",
+      "price": 39400
+    },
+    {
+      "id": 21,
+      "title": "СМАРТФОН SAMSUNG GALAXY S20 (8+128) 5G EU + SAMSUNG GALAXY BUDS",
+      "composition": "Еще одним поводом купить девайс станет шедевральная камера на 48+16+8 Мп, которая полностью заменит дорогой фотоаппарат, аНовая эра в фотографии\nВстречайте Galaxy S20 | S20+ | S20 Ultra. Cнимайте в революционном разрешении 8K и получайте сверхчеткие фотографии высокого качества прямо из видео. Добавьте к этому надежную защиту Samsung Knox, интеллектуальный аккумулятор, супермощный процессор и большой объем памяти для всех ваших файлов. Откройте новую главу в истории мобильных устройств. также фронталка на 20 Мп, которой будут рады все поклонники селфи.",
+      "image": "Assets/Samsung/product-4.jpg",
+      "category": "Samsung",
+      "model": "S20",
+      "price": 76500
+    },
+    {
+      "id": 22,
+      "title": "НАУШНИКИ 1 MORE PISTON FIT",
+      "composition": "Чтобы придать холодному алюминию уникальный вид, команда 1MORE использовала высокоточную гравировку по металлу, что позволило получить простую и стильную воронкообразную форму наушников. Легкость и компактный дизайн делают их идеальными для ежедневного использования.",
+      "image": "Assets/Xiaomi/product-0.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "",
+      "price": 550
+    },
+    {
+      "id": 23,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ 1MORE DUAL DRIVER BLUETOOTH ACTIVE NOISE CANCELLING IN-EAR HEADPHONES",
+      "composition": "Система активного шумоподавления\nДва уровня активного шумоподавления позволяют вам быть хозяином своего окружения: уровень 1 подавляет нежелательный шум, сохраняя при этом вашу осведомленность об окружающей среде, а уровень 2 полностью блокирует шум для полного спокойствия даже в шумной обстановке, такой как полеты, переполненный общественный транспорт, шумные улицы , шумные комнаты и прочее.",
+      "image": "Assets/Xiaomi/product-1.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "",
+      "price": 4200
+    },
+    {
+      "id": 24,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ MOREJOY JOUIRBUDS MJ131",
+      "composition": "Сфокусируйтесь на музыке и наслаждайтесь тишиной включив систему активного шумоподавления до 25 дБ.",
+      "image": "Assets/Xiaomi/product-2.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "MJ131",
+      "price": 3400
+    },
+    {
+      "id": 25,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ OMTHING AIRFREE LACE WIRELES HEADPHONES",
+      "composition": "Наслаждайтесь удобным стильным дизайном без прямых углов, доступный в 4 разных расцветках и очень комфортные для повседневного ношения как на улице, так и в помещениях",
+      "image": "Assets/Xiaomi/product-3.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "",
+      "price": 1500
+    },
+    {
+      "id": 26,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ OMTHING AIRFREE PODS TWS",
+      "composition": "13-миллиметровый динамический драйвер из композитного титана обеспечивает чистые высокие частоты, твердые средние частоты и мощные басы с превосходным разделением звука. Погрузитесь в свою музыку, как если бы она была живой.",
+      "image": "Assets/Xiaomi/product-4.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "",
+      "price": 3400
+    },
+    {
+      "id": 27,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ QCY T5",
+      "composition": "",
+      "image": "Assets/Xiaomi/product-5.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "T5",
+      "price": 1300
+    },
+    {
+      "id": 28,
+      "title": "БЕСПРОВОДНЫЕ НАУШНИКИ XIAOMI MI TRUE WIRELESS EARBUDS BASIC 2S",
+      "composition": "",
+      "image": "Assets/Xiaomi/product-6.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "25",
+      "price": 1750
+    },
+    {
+      "id": 29,
+      "title": "СМАРТ-ЧАСЫ XIAOMI HAYLOU GST",
+      "composition": "Большой HD экран\nЧасы Haylou GST весят всего 42 г и созданы специально для занятий спортом. Большой сенсорный экран с диагональю 43 мм (1,69 дюйма) легко читается.",
+      "image": "Assets/Xiaomi/product-7.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "GST",
+      "price": 4100
+    },
+    {
+      "id": 30,
+      "title": "СМАРТ-ЧАСЫ XIAOMI HAYLOU RS4",
+      "composition": "Haylou RS4 специально создан для занятий спортом. Легко проверяйте информацию на большом сенсорном дисплее с диагональю 1,78 дюйма.",
+      "image": "Assets/Xiaomi/product-8.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "RS4",
+      "price": 4100
+    },
+    {
+      "id": 31,
+      "title": "СМАРТ-ЧАСЫ XIAOMI HAYLOU SMART WATCH 2 LS02",
+      "composition": "12 спортивных режимов\nВ умных часах Haylou Smart Watch 2 встроено 12 режимов для разных видов занятий спортом. Множество встроенных датчиков записывают различные спортивные данные для их научного анализа и повышения эффективности занятий.",
+      "image": "Assets/Xiaomi/product-9.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "LS02",
+      "price": 2650
+    },
+    {
+      "id": 32,
+      "title": "СМАРТ-ЧАСЫ XIAOMI HAYLOU RT2",
+      "composition": "Смарт-часы Xiaomi Haylou RT2\nHD-дисплей Retina | Мониторинг сердечного ритма | Мониторинг сна | 20 дней автономной работы",
+      "image": "Assets/Xiaomi/product-10.jpg",
+      "category": "Xiaomi",
+      "sub": "Accessories",
+      "model": "RT2",
+      "price": 4500
+    },
+    {
+      "id": 33,
+      "title": "СМАРТФОН POCO M4 PRO (8+256) EU",
+      "composition": "AMOLED DotDisplay FHD+ 90 Гц\nДа, вы правильно поняли! В серии POCO M теперь используется AMOLED-дисплей и поддерживается пространство DCI-P3. Кинематографическое широкое цветовое пространство в сочетании со сверхвысокой контрастностью обеспечивают эффект полного погружения.",
+      "image": "Assets/Xiaomi/product-11.jpg",
+      "category": "Xiaomi",
+      "model": "M4 Pro",
+      "price": 1950
+    },
+    {
+      "id": 34,
+      "title": "СМАРТФОН REDMI K40 (12+256)",
+      "composition": "Процессор Snapdragon 870\nПо сравнению с мобильными телефонами предыдущего поколения, производительность ЦП увеличена на 75%, скорость рендеринга увеличена до 200% +, а общая оценка работы увеличена до 200% *! Помимо удивительного улучшения, значительно снизилось энергопотребление.",
+      "image": "Assets/Xiaomi/product-12.jpg",
+      "category": "Xiaomi",
+      "model": "K40",
+      "price": 32900
+    },
+    {
+      "id": 35,
+      "title": "СМАРТФОН XIAOMI 11T (8+256) EU",
+      "composition": "Xiaomi 11T\nПрофессиональная камера 108 МП | Дисплей AdaptiveSync AMOLED с частотой 120 Гц | Проводная турбо-зарядка 67 Вт",
+      "image": "Assets/Xiaomi/product-13.jpg",
+      "category": "Xiaomi",
+      "model": "11T",
+      "price": 31800
+    },
+    {
+      "id": 36,
+      "title": "СМАРТФОН XIAOMI REDMI 10 (6+128) EU",
+      "composition": "Hовый уровень пользовательского опыта Благодаря высокой частоте обновления 90 Гц вы можете наслаждаться более плавным просмотром при прокрутке или во время игр. ",
+      "image": "Assets/Xiaomi/product-14.jpg",
+      "category": "Xiaomi",
+      "model": "10",
+      "price": 15200
+    },
+    {
+      "id": 37,
+      "title": "СМАРТФОН XIAOMI REDMI 9 (4+64)",
+      "composition": "Свободно переключайтесь между различными режимами, чтобы снимать различные типы сценариев с помощью камеры AI Quad. В смартфоне установлено 4 различных модуля: 8МП ультра-широкоугольный, 13МП основной широкий, 2МП датчик глубины и 5 МП макро с фокусным расстоянием 4 см.",
+      "image": "Assets/Xiaomi/product-15.jpg",
+      "category": "Xiaomi",
+      "model": "9",
+      "price": 12300
+    }
+  ],
+  "messages": []
+}

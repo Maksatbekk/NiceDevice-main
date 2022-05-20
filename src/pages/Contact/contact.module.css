@@ -1,0 +1,199 @@
+
+.contactsNav {
+    margin-bottom: -50px;
+}
+
+
+.contactsBasket {
+    display: flex;
+    column-gap: 10px;
+    font-size: 19px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    padding: 10px 0 10px 10px;
+    color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    column-gap: 50px;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.contactsTitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    color: #292930;
+    margin-bottom: 7px;
+}
+
+.contactsSubTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #22215B;
+}
+
+.contactsLink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #7D8797;
+    margin-bottom: 74px;
+}
+
+.contactsContact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 70%;
+}
+
+.formBlock {
+    display: flex;
+    column-gap: 55px;
+}
+
+.formName {
+    width: 400px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    padding: 12px 16px;
+    border-radius: 6px
+}
+
+.formName:hover {
+    border: 1px solid #00bbd3;
+}
+
+.formMessage {
+    width: 600px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    padding: 12px 16px;
+    border-radius: 6px
+}
+
+.formMessage:hover {
+    border: 1px solid #00bbd3;
+}
+
+.formMessage::placeholder{
+    position: absolute;
+}
+
+.formBtn {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #00bbd3;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+
+.swiper {
+    width: 27%;
+    height: 500px;
+
+}
+
+.swiper-button-next {
+    font-size: 10px;
+}
+
+.swiper-button-prev {
+    font-size: 10px;
+}
+
+.swiperRow {
+    display: flex;
+    column-gap: 30px;
+}
+
+.swiperImage {
+
+}
+
+.swiperBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.swiperBox {
+
+}
+
+.swiperTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #22215B;
+}
+
+.swiperSubtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #7D8797;
+}
+
+@media (max-width: 1024px) {
+   .formName {
+       width: 350px;
+   }
+    .formEmail {
+       width: 350px;
+   }
+    .formMessage {
+        width: 730px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactsTop {
+        padding: 0 30px;
+    }
+
+    .formName {
+        width: 250px;
+    }
+    .formEmail {
+        width: 250px;
+    }
+
+    .formMessage {
+        width: 530px;
+    }
+    .swiper {
+        margin-top: 40px;
+    }
+}

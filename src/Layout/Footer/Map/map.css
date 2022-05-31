@@ -5,5 +5,14 @@
 .map__content {
     max-width: 915px;
     border-radius: 0 70px 70px 0;
+
+    width: 100%;
+    height: 467px;
 }
 
+
+@media (max-width: 576px) {
+    .map__content {
+        height: 00px;
+    }
+}

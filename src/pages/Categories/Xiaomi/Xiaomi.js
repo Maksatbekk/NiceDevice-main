@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import Categories from "../Categories";
 import styles from "./Xiaomi.module.css";
@@ -8,20 +8,32 @@ import {AiOutlineShoppingCart, AiFillHeart} from "react-icons/ai";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import {addFavourites, delFavourites} from "../../../redux/reducers/favourites/favourites";
+import {getAll} from "../../../redux/reducers/goods/goods";
+import Cart from '../../../Assets/cart.png'
 
 const Xiaomi = () => {
+    const [search, setSearch] = useState('');
 
     const dispatch = useDispatch();
     const arr = useSelector((store) => store.goods.goods);
     const cart = useSelector((store) => store.cart.cart);
     const favourites = useSelector((store) => store.favourites.favourites);
-
+    useEffect(() => {
+        if (search !== '') {
+            dispatch(getAll(search))
+        } else  {
+            dispatch(getAll())
+        }
+    }, [search]);
     return (
 
         <section>
             <Categories />
             <div>
-                <h3 className={styles.title}>Xiaomi</h3>
+                <div className={styles.sectionTop}>
+                    <h3 className={styles.title}>Xiaomi</h3>
+                    <input onChange={(e) => setSearch(e.target.value)} type="search" className={styles.search} placeholder='Поиск...'/>
+                </div>
                 <div className={styles.row}>
                     {
                         arr.map((item) => (
@@ -31,33 +43,35 @@ const Xiaomi = () => {
                                         <LazyLoadImage alt='img' effect="blur" src={item.image} className={styles.cardImg}/>
                                         <h3 className={styles.cardTitle} onClick={() => dispatch(open(item))}>{item.title.slice(0,20)}...</h3>
                                         <div className={styles.cardPrice}>
-                                            <div>
-
+                                            <div className={styles.priceBox}>
                                                 <h4 className={styles.cardPriceTitle}>Цена: </h4>
                                                 <p className={styles.cardPriceNum}>{item.price} сом</p>
                                             </div>
 
-                                            {
-                                                cart.filter((el) => el.id === item.id).length ?
-                                                    <button type='button' className={styles.cardBtnCheck} onClick={() => dispatch(delCart(item.id))} >
-                                                        <AiOutlineShoppingCart/>
-                                                    </button>
-                                                    : <button type='button' className={styles.cardBtn} onClick={() => dispatch(addCart(item))} >
-                                                        <AiOutlineShoppingCart/>
-                                                    </button>
+                                            <div className={styles.cardButtons}>
+                                                {
+                                                    cart.filter((el) => el.id === item.id).length ?
+                                                        <button type='button' className={styles.cardBtnCheck} onClick={() => dispatch(delCart(item.id))} >
+                                                            <img className={styles.cardBtnImg} src={Cart} alt=""/>
+                                                        </button>
+                                                        : <button type='button' className={styles.cardBtn} onClick={() => dispatch(addCart(item))} >
+                                                            <img className={styles.cardBtnImg} src={Cart} alt=""/>
+                                                        </button>
 
-                                            }
+                                                }
 
-                                            {
-                                                favourites.filter((el) => el.id === item.id).length ?
-                                                    <button type='button' className={styles.cardLike} onClick={() => dispatch(delFavourites(item.id))} >
-                                                        <AiFillHeart/>
-                                                    </button>
-                                                    : <button type='button' className={styles.cardBtn} onClick={() => dispatch(addFavourites(item))} >
-                                                        <AiFillHeart/>
-                                                    </button>
+                                                {
+                                                    favourites.filter((el) => el.id === item.id).length ?
+                                                        <button type='button' className={styles.cardLike} onClick={() => dispatch(delFavourites(item.id))} >
+                                                            <AiFillHeart/>
+                                                        </button>
+                                                        : <button type='button' className={styles.cardBtnLike} onClick={() => dispatch(addFavourites(item))} >
+                                                            <AiFillHeart/>
+                                                        </button>
 
-                                            }
+                                                }
+                                            </div>
+
 
                                         </div>
                                     </div>

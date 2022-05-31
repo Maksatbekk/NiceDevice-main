@@ -57,3 +57,37 @@
         margin-top: 40px;
     }
 }
+
+@media (max-width: 576px) {
+    .aboutTop {
+        padding: 0 25px;
+    }
+
+    .row {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .swiper{
+        margin-top: 10px;
+        width: 90%;
+        height: 200px;
+        margin-bottom: 100px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    .swiper {
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .swiper {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .row {
+        margin-bottom: -80px;
+    }
+}

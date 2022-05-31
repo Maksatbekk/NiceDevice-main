@@ -12,6 +12,13 @@
 
 }
 
+.error{
+    color: #00bbd3;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 8px;
+}
+
 .form {
     width: 40%;
     display: flex;
@@ -205,4 +212,113 @@
     .checkbox {
         margin-left: 50px;
     }
+}
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .item {
+        padding: 10px 15px 25px;
+    }
+    .formInput {
+        width: 200px;
+    }
+    .cartFooterLine {
+        max-width: 150px;
+    }
+
+    .formSelect {
+        width: 200px;
+    }
+    .formLabel {
+        font-size: 14px;
+    }
+    .right {
+        width: 100%;
+    }
+    .formItem {
+        column-gap: 50px;
+    }
+    .form {
+        width: 80%;
+    }
+}
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .item {
+        padding: 10px 15px 25px;
+    }
+    .formInput {
+        width: 200px;
+        margin-bottom: -20px;
+    }
+    .cartFooterLine {
+        max-width: 150px;
+    }
+
+    .formSelect {
+        width: 200px;
+    }
+    .formLabel {
+        font-size: 14px;
+    }
+    .right {
+        width: 100%;
+    }
+   .formItem {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+   }
+
+   .checkboxText {
+       font-size: 12px;
+   }
+}
+
+
+@media (max-width: 320px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .item {
+        padding: 10px 15px 25px;
+    }
+    .formInput {
+        width: 150px;
+        margin-bottom: -20px;
+        height: 25px;
+    }
+    .cartFooterLine {
+        max-width: 100px;
+    }
+
+    .formSelect {
+        width: 150px;
+    }
+    .formLabel {
+        font-size: 12px;
+    }
+    .right {
+        width: 100%;
+    }
+    .form {
+        padding-bottom: 0;
+        width: 100%;
+    }
+   .formItem {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+   }
+
+   .checkboxText {
+       font-size: 10px;
+   }
+
 }

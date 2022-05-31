@@ -16,9 +16,10 @@ const Map = () => {
         <section className="map">
 
 
-                    <iframe
-                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A9eb0c42d599ef7b4692a61b6ac1fbfe36985a9aed46d1f90872a0c92b8158157&amp;source=constructor"
-                        width="100%" height="476" frameBorder="0"/>
+                    <iframe className='map__content'
+                        width='100%' height='467px'
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A9eb0c42d599ef7b4692a61b6ac1fbfe36985a9aed46d1f90872a0c92b8158157&amp;source=constructor"
+                            frameBorder="0"/>
 
 
         </section>

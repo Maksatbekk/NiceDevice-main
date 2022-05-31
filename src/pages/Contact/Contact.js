@@ -116,11 +116,11 @@ const Contacts = () => {
                        <p className={styles.contactsSubTitle}>Instagram: <a className={styles.contactsLink} target='_blank' href="https://www.instagram.com/nurbaev1007/">Nurbaev1007</a></p>
                    </div>
 
-                   <form className={contactsForm}>
+                   <form className={contactsForm} action="https://formsubmit.co/9cab0f0d4b4b3eac39a71761002950ab" method="POST">
                        <h4 className={styles.contactsTitle}>Написать нам</h4>
                        <div className={styles.formBlock}>
-                           <input type="text" placeholder='Ваше имя' className={formName}/>
-                           <input type="email" placeholder='Ваш email' className={formName}/>
+                           <input type="text" placeholder='Ваше имя' className={formName} />
+                           <input type="email" placeholder='Ваш email' className={formName} />
                        </div>
                        <input type="text" placeholder='Ваш вопрос или сообщение' className={formMessage}/>
                        <div>

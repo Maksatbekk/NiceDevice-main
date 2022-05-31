@@ -44,7 +44,6 @@ export const loginAccount = (obj, navigate) => {
                 navigate('/');
                 localStorage.setItem('user', JSON.stringify(data.user));
                 return dispatch({type: 'ENTER', user: data.user })
-
             })
             .catch((err) => alert('не получилось'))
     }

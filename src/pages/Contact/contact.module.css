@@ -122,13 +122,6 @@
 
 }
 
-.swiper-button-next {
-    font-size: 10px;
-}
-
-.swiper-button-prev {
-    font-size: 10px;
-}
 
 .swiperRow {
     display: flex;
@@ -167,15 +160,7 @@
 }
 
 @media (max-width: 1024px) {
-   .formName {
-       width: 350px;
-   }
-    .formEmail {
-       width: 350px;
-   }
-    .formMessage {
-        width: 730px;
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -191,9 +176,141 @@
     }
 
     .formMessage {
-        width: 530px;
+        width: 460px;
+    }
+
+    .formBtn {
+        margin-left: 150px;
     }
     .swiper {
         margin-top: 40px;
     }
+}
+
+@media (max-width: 576px) {
+
+    .contacts {
+        row-gap: 30px;
+    }
+    .formBlock {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .formMessage {
+        width: 250px;
+    }
+    .formBtn {
+        margin-left: 30px;
+    }
+
+    .contactsTitle {
+        font-size: 20px;
+    }
+
+    .row {
+        column-gap: 70px;
+    }
+    .swiper {
+        width: 35%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .contacts {
+        row-gap: 30px;
+    }
+    .formBlock {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .formMessage {
+        width: 250px;
+    }
+    .formBtn {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contactsTitle {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 80%;
+        height: 200px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 375px) {
+
+    .contactsNav {
+        margin-bottom: -80px;
+    }
+    .contacts {
+        row-gap: 30px;
+    }
+    .formBlock {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .formMessage {
+        width: 250px;
+    }
+    .formBtn {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .contactsTitle {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 80%;
+        height: 200px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .contacts {
+        row-gap: 20px;
+    }
+    .formBlock {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .formMessage {
+        width: 250px;
+    }
+    .formBtn {
+        margin-left: 30px;
+        margin-bottom: -30px;
+    }
+
+    .contactsTitle {
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+    .swiper {
+        width: 90%;
+        height: 200px;
+        margin-left: 10px;
+    }
+
 }

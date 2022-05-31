@@ -105,17 +105,18 @@
 
 @media (max-width: 576px) {
     .header {
-        padding: 25px 0;
+        padding: 20px 0;
     }
     .headerNav {
         column-gap: 30px;
+        padding-bottom: 17px;
     }
     .topList {
         column-gap: 25px;
     }
 
     .headerTopRight {
-        column-gap: 90px;
+        column-gap: 60px;
     }
     .headerLogo {
         font-size: 14px;
@@ -142,10 +143,156 @@
     }
 
     .categoriesLink {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .categoriesListItem {
         width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .header {
+        padding: 15px 0;
+    }
+    .headerNav {
+        column-gap: 20px;
+        padding-bottom: 15px;
+    }
+    .topList {
+        column-gap: 20px;
+    }
+    .headerLink {
+        font-size: 12px;
+    }
+
+    .headerTopRight {
+        column-gap: 40px;
+    }
+    .headerLogo {
+        font-size: 10px;
+    }
+    .headerLogoImg {
+        width: 40px;
+        height: 40px;
+    }
+    .headerRegister {
+        column-gap: 10px;
+    }
+
+    .cartImg {
+        width: 20px;
+        height: 20px;
+    }
+    .cartCount {
+        font-size: 11px;
+        left: 7px;
+        top: -7px;
+    }
+
+    .headerRegisterImg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .categoriesLink {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding: 10px 0;
+    }
+    .headerNav {
+        column-gap: 20px;
+        padding-bottom: 10px;
+    }
+    .topList {
+        column-gap: 15px;
+    }
+    .headerLink {
+        font-size: 10px;
+    }
+
+    .headerTopRight {
+        column-gap: 40px;
+    }
+    .headerLogo {
+        font-size: 7px;
+    }
+    .headerLogoImg {
+        width: 30px;
+        height: 30px;
+    }
+    .headerRegister {
+        column-gap: 12px;
+    }
+
+    .cartImg {
+        width: 15px;
+        height: 15px;
+    }
+    .cartCount {
+        font-size: 10px;
+        left: 5px;
+        top: -2px;
+    }
+
+    .headerRegisterImg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .categoriesLink {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        padding: 7px 0;
+    }
+    .headerNav {
+        column-gap: 10px;
+        padding-bottom: 7px;
+    }
+    .topList {
+        column-gap: 7px;
+    }
+    .headerLink {
+        font-size: 8px;
+    }
+
+    .headerTopRight {
+        column-gap: 25px;
+    }
+    .headerLogo {
+        font-size: 7px;
+    }
+    .headerLogoImg {
+        width: 25px;
+        height: 25px;
+    }
+    .headerRegister {
+        column-gap: 10px;
+    }
+
+    .cartImg {
+        width: 15px;
+        height: 15px;
+    }
+    .cartCount {
+        font-size: 10px;
+        left: 5px;
+        top: -2px;
+    }
+
+    .headerRegisterImg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .categoriesLink {
+        font-size: 12px;
     }
 }

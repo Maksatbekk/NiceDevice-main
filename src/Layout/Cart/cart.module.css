@@ -274,7 +274,7 @@
 
 @media (max-width: 768px) {
     .cart {
-        max-width: 300px;
+
     }
 
     .item {
@@ -287,6 +287,97 @@
     .itemPrice {
         font-size: 12px;
         line-height: 13px;
+    }
+
+    .itemBtn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .cartFooterTitle {
+        font-size: 14px;
+    }
+
+    .cartFooterLine {
+        max-width: 90px;
+    }
+
+    .cartFooterBtn {
+        padding: 14px 0;
+    }
+    .cartBlock {
+        width: 40%;
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .cartBlockImg {
+        margin-left: 5px;
+    }
+
+    .cartBlockTitle {
+        margin-left: 20px;
+    }
+
+    .cartBlockCount {
+        margin-left: 150px;
+    }
+
+    .cartBlockPrice {
+        margin-left: 25px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .cart {
+    }
+
+    .item {
+        padding: 10px 5px;
+    }
+    .itemTitle {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .itemPrice {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .itemBtn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .cartFooterTitle {
+        font-size: 14px;
+    }
+
+    .cartFooterLine {
+        max-width: 90px;
+    }
+
+    .cartFooterBtn {
+        padding: 14px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .cart {
+    }
+
+    .item {
+        padding: 5px 5px;
+    }
+    .itemTitle {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .itemPrice {
+        font-size: 10px;
+        line-height: 11px;
     }
 
     .itemBtn {

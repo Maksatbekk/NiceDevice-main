@@ -36,14 +36,14 @@ const Modal = () => {
                         <button type='button' className={styles.btn} onClick={() => {
                             dispatch(addCart(obj));
                             dispatch(close())
-                        }}><img src={Cart} alt=""/>
+                        }}><img className={styles.cartImg} src={Cart} alt=""/>
                         </button>
                     </div>
 
                     <div className={styles.close} onClick={() => dispatch(close())}>X</div>
                 </div>
                 <div className={styles.bottom}>
-                    <p>{obj.composition}</p>
+                    <p className={styles.descr}>{obj.composition}</p>
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ const Card = () => {
                                 <LazyLoadImage alt='img' effect="blur" src={item.image} className={styles.cardImg}/>
                                 <h3 className={styles.cardTitle} onClick={() => dispatch(open(item))}>{item.title.slice(0,25).toUpperCase()}...</h3>
                                 <div className={styles.cardPrice}>
-                                    <div>
+                                    <div className={styles.priceBox}>
                                         <h4 className={styles.cardPriceTitle}>Цена: </h4>
                                         <p className={styles.cardPriceNum}>{item.price} сом</p>
                                     </div>
@@ -54,9 +54,6 @@ const Card = () => {
 
                                         }
                                     </div>
-
-
-
                                 </div>
                             </div>
 

@@ -172,47 +172,50 @@ const Account = () => {
                     <li className={styles.listItem} onClick={() => navigate('/buys')}>Мои покупки</li>
                 </ul>
 
-                <div className={styles.image}>
-                    {user.image ? <img src={user.image} alt=""/> :
-                        <div className={styles.circle}><img style={{width: '70%'}} src={User} alt=""/></div>}
+                <div className={styles.sectionBottom}>
+                    <div className={styles.image}>
+                        {user.image ? <img src={user.image} alt=""/> :
+                            <div className={styles.circle}><img style={{width: '70%'}} src={User} alt=""/></div>}
+                    </div>
+
+                    <div>
+                        <form className={styles.block} onSubmit={handleSubmit(changeUser)}>
+                            <div className={styles.blockHeader}>
+                                <h4 className={styles.blockTitle}>Личные данные</h4>
+                                <p onClick={() => setChange(!change)} className={styles.changeBtn}>{change ? 'Отменить' : 'Изменить'}</p>
+
+                            </div>
+
+                            <div className={styles.blockContent}>
+
+                                <label className={styles.blockCol}>
+                                    Имя
+                                    {change ? <input className={styles.blockInput} {...register('login')} type="text" defaultValue={user.login}/> :
+                                        <p className={styles.blockDescr}>{user.login}</p>}
+                                </label>
+                                <label className={styles.blockCol}>
+                                    Номер телефона
+                                    {change ? <input className={styles.blockInput} {...register('phone')} type='tel' defaultValue={user.phone}/> :
+                                        <p className={styles.blockDescr}>{user.phone}</p>}
+                                </label>
+                                <label className={styles.blockCol}>
+                                    Почта
+                                    {change ? <input className={styles.blockInput} {...register('email')} type='email' defaultValue={user.email}/> :
+                                        <p className={styles.blockDescr}>{user.email}</p>}
+                                </label>
+
+                                <label className={styles.blockCol}>
+                                    Дата рождения
+                                    {change ? <input className={styles.blockInput} {...register('date')} type='date' defaultValue={user.birthday}/> :
+                                        <p className={styles.blockDescr}>{user.birthday}</p>}
+                                </label>
+
+                            </div>
+                            {change ? <button type='submit' className={styles.blockBtn}>Сохранить</button> : ''}
+                        </form>
+                    </div>
                 </div>
 
-                <div>
-                            <form className={styles.block} onSubmit={handleSubmit(changeUser)}>
-                                <div className={styles.blockHeader}>
-                                    <h4 className={styles.blockTitle}>Личные данные</h4>
-                                    <p onClick={() => setChange(!change)} className={styles.changeBtn}>{change ? 'Отменить' : 'Изменить'}</p>
-
-                                </div>
-
-                                <div className={styles.blockContent}>
-
-                                    <label className={styles.blockCol}>
-                                        Имя
-                                        {change ? <input className={styles.blockInput} {...register('login')} type="text" defaultValue={user.login}/> :
-                                            <p className={styles.blockDescr}>{user.login}</p>}
-                                    </label>
-                                    <label className={styles.blockCol}>
-                                        Номер телефона
-                                        {change ? <input className={styles.blockInput} {...register('phone')} type='tel' defaultValue={user.phone}/> :
-                                            <p className={styles.blockDescr}>{user.phone}</p>}
-                                    </label>
-                                    <label className={styles.blockCol}>
-                                        Почта
-                                        {change ? <input className={styles.blockInput} {...register('email')} type='email' defaultValue={user.email}/> :
-                                            <p className={styles.blockDescr}>{user.email}</p>}
-                                    </label>
-
-                                    <label className={styles.blockCol}>
-                                        Дата рождения
-                                        {change ? <input className={styles.blockInput} {...register('date')} type='date' defaultValue={user.birthday}/> :
-                                            <p className={styles.blockDescr}>{user.birthday}</p>}
-                                    </label>
-
-                                </div>
-                                {change ? <button type='submit' className={styles.blockBtn}>Сохранить</button> : ''}
-                            </form>
-                </div>
             </div>
             </div>
         </section>

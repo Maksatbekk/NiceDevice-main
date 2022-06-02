@@ -1,4 +1,3 @@
-NiceDevice магазин гаджетов и девайсов. Всё для вашего удобства! 
-
+NiceDevice is store of gadgets and accessories. Everything is for your comfort!
 
 

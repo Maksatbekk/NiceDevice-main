@@ -19,12 +19,12 @@ const Footer = () => {
                     <div className={styles.box}>
                         <div className={styles.boxContent}>
                             <h3 className={styles.subtitle}>Телефон</h3>
-                            <a href='tel: +996 550 154 154' className={styles.descr}>+996 550-154-154</a>
+                            <a href='tel: +996 550 154 154' className={styles.descr}>+996 501 141 100</a>
                         </div>
 
                         <div className={styles.boxContent}>
                             <h3 className={styles.subtitle}>E-mail</h3>
-                            <p className={styles.descr}>maks01.it.run@gmail.com</p>
+                            <p className={styles.descr}>maks00@gmail.com</p>
                         </div>
                     </div>
 

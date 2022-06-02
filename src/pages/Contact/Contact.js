@@ -34,7 +34,7 @@ const Contacts = () => {
                                    </div>
                                    <div className={styles.swiperBox}>
                                        <h3 className={styles.swiperTitle}>Контакты</h3>
-                                       <a href='tel: +996 550 154 154' className={styles.swiperSubtitle}>+996 550 00 00 00</a>
+                                       <a href='tel: +996 501 141 100' className={styles.swiperSubtitle}>+996 501 141 100</a>
                                    </div>
                                </div>
                            </div>
@@ -100,7 +100,7 @@ const Contacts = () => {
                                    </div>
                                    <div className={styles.swiperBox}>
                                        <h3 className={styles.swiperTitle}>Контакты</h3>
-                                       <a href='tel: +996 550 154 154' className={styles.swiperSubtitle}>+996 550 154 154</a>
+                                       <a href='tel: +996 550 154 154' className={styles.swiperSubtitle}>+996 501 141 100</a>
                                    </div>
                                </div>
                            </div>
@@ -111,9 +111,9 @@ const Contacts = () => {
                <div className={contacts}>
                    <div className={contactsContact}>
                        <p className={styles.contactsTitle}>Контакты:</p>
-                       <p className={styles.contactsSubTitle}>Тел: <a className={styles.contactsLink} href="tel: +996 550 154 154">+996 550 154 154</a></p>
-                       <p className={styles.contactsSubTitle}>Email: <a className={styles.contactsLink} target='_blank' href="https://mail.google.com">maks01.it.run@gmail.com</a></p>
-                       <p className={styles.contactsSubTitle}>Instagram: <a className={styles.contactsLink} target='_blank' href="https://www.instagram.com/nurbaev1007/">Nurbaev1007</a></p>
+                       <p className={styles.contactsSubTitle}>Тел: <a className={styles.contactsLink} href="tel: +996 501 141 100">+996 501 141 100</a></p>
+                       <p className={styles.contactsSubTitle}>Email: <a className={styles.contactsLink} target='_blank' href="https://mail.google.com">maks00@gmail.com</a></p>
+                       <p className={styles.contactsSubTitle}>Instagram: <a className={styles.contactsLink} target='_blank' href="https://www.instagram.com/nurbaev1007/">maxkanybekov</a></p>
                    </div>
 
                    <form className={contactsForm} action="https://formsubmit.co/9cab0f0d4b4b3eac39a71761002950ab" method="POST">

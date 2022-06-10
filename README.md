@@ -1,6 +1,6 @@
 # NiceDevice is store of gadgets and accessories. Everything is for your comfort!
-
-Here are some screenshoots of web page:
+Link to the heroku app https://nice-device.herokuapp.com/
+# Here are some screenshoots of web page:
 <img src="https://user-images.githubusercontent.com/49745411/171576402-83f00230-3809-4872-a920-786eabdaf4c8.png" width=900, height=500>
 
 <table style="padding:10px">

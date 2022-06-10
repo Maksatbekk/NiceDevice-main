@@ -21,4 +21,11 @@ Other Pages:
    <td><img src="https://user-images.githubusercontent.com/49745411/171576426-562682c8-3352-4c57-9dab-6abd62aca3fa.png" align="right" alt="2" width = 800px height = 300px>
   </td>
  </tr>
+ <tr>
+  <td>
+   <img src="https://user-images.githubusercontent.com/49745411/173052936-58050b20-373c-42ae-9a1c-31eda6b4afc7.png"  alt="1" width = 800px height = 300px >
+  </td>  
+   <td><img src="https://user-images.githubusercontent.com/49745411/173052959-15380260-a519-48e6-bed2-d7d836e3da96.png" align="right" alt="2" width = 800px height = 300px>
+  </td>
+ </tr>
 </table>
